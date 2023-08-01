@@ -1,4 +1,4 @@
-import Fonte from './Fonte'
+
 const Header = () => {
     return(
      <>
@@ -9,7 +9,7 @@ const Header = () => {
                     <h2>blog</h2>
                 </div>
                 <div id="barSearch">
-                    <input type="text" />
+                    <input type="text" placeholder="Pesquisar no blog"/>
                 </div>
             </header>
     </>
